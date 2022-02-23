@@ -9,7 +9,7 @@ public class Main {
        System.out.println("Ivo's Homework");
        System.out.println();
 
-        int randomNum = ThreadLocalRandom.current().nextInt(1, 9 + 1);
+        int randomNum = ThreadLocalRandom.current().nextInt(1, 10 + 1);
         System.out.println("randomNum is - " + randomNum);
 
         if (randomNum> 5){
